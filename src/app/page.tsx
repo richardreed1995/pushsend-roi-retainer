@@ -14,14 +14,14 @@ const ROICalculator = () => {
       prospects: 3500, 
       cost: 3000, 
       label: '£3,000/month',
-      description: '7,000 prospects',
+      description: '3,500 prospects',
       costPerProspect: (3000 / 3500).toFixed(2)
     },
     { 
       prospects: 7000, 
       cost: 4000, 
       label: '£4,000/month',
-      description: '15,000 prospects',
+      description: '7,000 prospects',
       costPerProspect: (4000 / 7000).toFixed(2)
     }
   ];
