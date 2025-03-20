@@ -4,25 +4,25 @@ import { useState } from 'react';
 const ROICalculator = () => {
   const prospectTiers = [
     { 
-      prospects: 3500, 
+      prospects: 2000, 
       cost: 2000, 
       label: '£2,000/month',
-      description: '3,500 prospects',
-      costPerProspect: (2000 / 3500).toFixed(2)
+      description: '2,000 prospects',
+      costPerProspect: (2000 / 2200).toFixed(2)
     },
     { 
-      prospects: 7000, 
+      prospects: 3500, 
       cost: 3000, 
       label: '£3,000/month',
       description: '7,000 prospects',
-      costPerProspect: (3000 / 7000).toFixed(2)
+      costPerProspect: (3000 / 3500).toFixed(2)
     },
     { 
-      prospects: 15000, 
+      prospects: 7000, 
       cost: 4000, 
       label: '£4,000/month',
       description: '15,000 prospects',
-      costPerProspect: (4000 / 15000).toFixed(2)
+      costPerProspect: (4000 / 7000).toFixed(2)
     }
   ];
 
